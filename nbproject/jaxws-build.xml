@@ -18,8 +18,8 @@
     </target>
     <target name="wsimport-client-wsclientservices" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/wsclientservices"/>
-        <property name="wsdl-wsclientservices" location="xml-resources/web-service-references/wsclientservices/wsdl/test.enersight.net/wellspring3/wsclientservices.asmx.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/wsclientservices" destdir="${build.generated.dir}/jax-wsCache/wsclientservices" wsdl="${wsdl-wsclientservices}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://test.enersight.net/wellspring3/wsclientservices.asmx?wsdl" xnocompile="true" xendorsed="true">
+        <property name="wsdl-wsclientservices" location="xml-resources/web-service-references/wsclientservices/wsdl/www.enersight.net/wellspring3/wsclientservices.asmx.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/wsclientservices" destdir="${build.generated.dir}/jax-wsCache/wsclientservices" wsdl="${wsdl-wsclientservices}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="https://www.enersight.net/wellspring3/wsclientservices.asmx?wsdl" xnocompile="true" xendorsed="true">
             <depends file="${wsdl-wsclientservices}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/wsclientservices"/>
         </wsimport>

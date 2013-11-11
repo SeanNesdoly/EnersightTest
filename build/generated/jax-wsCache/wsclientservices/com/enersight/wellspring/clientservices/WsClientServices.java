@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "wsClientServices", targetNamespace = "http://enersight.com/WellSpring/ClientServices", wsdlLocation = "https://test.enersight.net/wellspring3/wsclientservices.asmx?wsdl")
+@WebServiceClient(name = "wsClientServices", targetNamespace = "http://enersight.com/WellSpring/ClientServices", wsdlLocation = "https://www.enersight.net/wellspring3/wsclientservices.asmx?wsdl")
 public class WsClientServices
     extends Service
 {
@@ -30,7 +30,7 @@ public class WsClientServices
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("https://test.enersight.net/wellspring3/wsclientservices.asmx?wsdl");
+            url = new URL("https://www.enersight.net/wellspring3/wsclientservices.asmx?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

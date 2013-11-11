@@ -876,10 +876,10 @@
   </wsdl:binding>
   <wsdl:service name="wsClientServices">
     <wsdl:port name="wsClientServicesSoap" binding="tns:wsClientServicesSoap">
-      <soap:address location="https://test.enersight.net/wellspring3/wsclientservices.asmx" />
+      <soap:address location="https://www.enersight.net/wellspring3/wsclientservices.asmx" />
     </wsdl:port>
     <wsdl:port name="wsClientServicesSoap12" binding="tns:wsClientServicesSoap12">
-      <soap12:address location="https://test.enersight.net/wellspring3/wsclientservices.asmx" />
+      <soap12:address location="https://www.enersight.net/wellspring3/wsclientservices.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
